@@ -1,0 +1,771 @@
+[
+  {
+    "id": "amul-milk",
+    "name": "Amul Milk",
+    "brand": "Amul",
+    "category": "Dairy",
+    "generic": "milk",
+    "price": 30,
+    "size": "500 ml",
+    "unit": "packet",
+    "available": false,
+    "substitute_ids": [
+      "mother-dairy-milk",
+      "almond-milk",
+      "soy-milk"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "amul-butter",
+    "name": "Amul Butter",
+    "brand": "Amul",
+    "category": "Dairy",
+    "generic": "butter",
+    "price": 58,
+    "size": "100 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "amul-cheese",
+    "name": "Amul Cheese",
+    "brand": "Amul",
+    "category": "Dairy",
+    "generic": "cheese",
+    "price": 125,
+    "size": "200 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "mother-dairy-milk",
+    "name": "Mother Dairy Milk",
+    "brand": "Mother Dairy",
+    "category": "Dairy",
+    "generic": "milk",
+    "price": 29,
+    "size": "500 ml",
+    "unit": "packet",
+    "available": true,
+    "substitute_ids": [
+      "amul-milk",
+      "almond-milk",
+      "soy-milk"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "almond-milk",
+    "name": "Almond Milk",
+    "brand": "Epigamia",
+    "category": "Dairy",
+    "generic": "milk",
+    "price": 199,
+    "size": "1 L",
+    "unit": "carton",
+    "available": true,
+    "substitute_ids": [
+      "soy-milk",
+      "mother-dairy-milk"
+    ],
+    "tags": [
+      "dairy-free",
+      "vegan",
+      "plant-based"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "soy-milk",
+    "name": "Soy Milk",
+    "brand": "Sofit",
+    "category": "Dairy",
+    "generic": "milk",
+    "price": 150,
+    "size": "1 L",
+    "unit": "carton",
+    "available": true,
+    "substitute_ids": [
+      "almond-milk",
+      "mother-dairy-milk"
+    ],
+    "tags": [
+      "dairy-free",
+      "vegan",
+      "plant-based"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "brand": "Fresh Farm",
+    "category": "Fruits",
+    "generic": "apple",
+    "price": 180,
+    "size": "1 kg",
+    "unit": "kg",
+    "available": true,
+    "substitute_ids": [
+      "organic-apple"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "organic-apple",
+    "name": "Organic Apple",
+    "brand": "Organic Farms",
+    "category": "Fruits",
+    "generic": "apple",
+    "price": 260,
+    "size": "1 kg",
+    "unit": "kg",
+    "available": true,
+    "substitute_ids": [
+      "apple"
+    ],
+    "tags": [
+      "organic"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "brand": "Fresh Farm",
+    "category": "Fruits",
+    "generic": "banana",
+    "price": 60,
+    "size": "12 pcs",
+    "unit": "dozen",
+    "available": true,
+    "substitute_ids": [
+      "organic-banana"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "organic-banana",
+    "name": "Organic Banana",
+    "brand": "Organic Farms",
+    "category": "Fruits",
+    "generic": "banana",
+    "price": 90,
+    "size": "12 pcs",
+    "unit": "dozen",
+    "available": true,
+    "substitute_ids": [
+      "banana"
+    ],
+    "tags": [
+      "organic"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "brand": "Fresh Farm",
+    "category": "Fruits",
+    "generic": "mango",
+    "price": 120,
+    "size": "1 kg",
+    "unit": "kg",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "brand": "Fresh Farm",
+    "category": "Fruits",
+    "generic": "orange",
+    "price": 90,
+    "size": "1 kg",
+    "unit": "kg",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "grapes",
+    "name": "Grapes",
+    "brand": "Fresh Farm",
+    "category": "Fruits",
+    "generic": "grape",
+    "price": 70,
+    "size": "500 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "ladyfinger",
+    "name": "Ladyfinger",
+    "brand": "Fresh Farm",
+    "category": "Vegetables",
+    "generic": "ladyfinger",
+    "price": 35,
+    "size": "500 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "okra",
+      "bhindi"
+    ]
+  },
+  {
+    "id": "bitter-gourd",
+    "name": "Bitter Gourd",
+    "brand": "Fresh Farm",
+    "category": "Vegetables",
+    "generic": "gourd",
+    "price": 30,
+    "size": "500 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "karela"
+    ]
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "brand": "Fresh Farm",
+    "category": "Vegetables",
+    "generic": "carrot",
+    "price": 50,
+    "size": "1 kg",
+    "unit": "kg",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "gajar"
+    ]
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "brand": "Fresh Farm",
+    "category": "Vegetables",
+    "generic": "potato",
+    "price": 35,
+    "size": "1 kg",
+    "unit": "kg",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "aloo"
+    ]
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "brand": "Fresh Farm",
+    "category": "Vegetables",
+    "generic": "tomato",
+    "price": 40,
+    "size": "1 kg",
+    "unit": "kg",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "jackfruit",
+    "name": "Jackfruit",
+    "brand": "Fresh Farm",
+    "category": "Vegetables",
+    "generic": "jackfruit",
+    "price": 80,
+    "size": "1 kg",
+    "unit": "kg",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "kathal"
+    ]
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "brand": "Britannia",
+    "category": "Bakery",
+    "generic": "bread",
+    "price": 45,
+    "size": "400 g",
+    "unit": "loaf",
+    "available": true,
+    "substitute_ids": [
+      "burger-buns"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "burger-buns",
+    "name": "Burger Buns",
+    "brand": "English Oven",
+    "category": "Bakery",
+    "generic": "bun",
+    "price": 40,
+    "size": "4 pcs",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [
+      "bread"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "oreo",
+    "name": "Oreo",
+    "brand": "Cadbury",
+    "category": "Snacks",
+    "generic": "biscuit",
+    "price": 35,
+    "size": "120 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [
+      "parle-g"
+    ],
+    "tags": [],
+    "aliases": [
+      "cookies"
+    ]
+  },
+  {
+    "id": "lays",
+    "name": "Lays",
+    "brand": "Lays",
+    "category": "Snacks",
+    "generic": "chips",
+    "price": 20,
+    "size": "52 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [
+      "kurkure"
+    ],
+    "tags": [],
+    "aliases": [
+      "chips"
+    ]
+  },
+  {
+    "id": "kurkure",
+    "name": "Kurkure",
+    "brand": "Kurkure",
+    "category": "Snacks",
+    "generic": "chips",
+    "price": 20,
+    "size": "90 g",
+    "unit": "pack",
+    "available": false,
+    "substitute_ids": [
+      "lays",
+      "oreo"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "parle-g",
+    "name": "Parle-G Biscuits",
+    "brand": "Parle",
+    "category": "Snacks",
+    "generic": "biscuit",
+    "price": 10,
+    "size": "56 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [
+      "oreo"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "maggie",
+    "name": "Maggie",
+    "brand": "Nestle",
+    "category": "Groceries",
+    "generic": "noodles",
+    "price": 14,
+    "size": "70 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "maggi"
+    ]
+  },
+  {
+    "id": "pasta",
+    "name": "Pasta",
+    "brand": "Del Monte",
+    "category": "Groceries",
+    "generic": "pasta",
+    "price": 95,
+    "size": "500 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "tomato-sauce",
+    "name": "Tomato Sauce",
+    "brand": "Kissan",
+    "category": "Groceries",
+    "generic": "sauce",
+    "price": 110,
+    "size": "500 g",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "ketchup"
+    ]
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "brand": "India Gate",
+    "category": "Groceries",
+    "generic": "rice",
+    "price": 120,
+    "size": "1 kg",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "brand": "Madhur",
+    "category": "Groceries",
+    "generic": "sugar",
+    "price": 48,
+    "size": "1 kg",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "salt",
+    "name": "Salt",
+    "brand": "Tata",
+    "category": "Groceries",
+    "generic": "salt",
+    "price": 28,
+    "size": "1 kg",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "tea",
+    "name": "Tea",
+    "brand": "Tata Tea",
+    "category": "Groceries",
+    "generic": "tea",
+    "price": 150,
+    "size": "250 g",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [
+      "coffee"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "brand": "Nescafe",
+    "category": "Groceries",
+    "generic": "coffee",
+    "price": 175,
+    "size": "50 g",
+    "unit": "jar",
+    "available": true,
+    "substitute_ids": [
+      "tea"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "jam",
+    "name": "Jam",
+    "brand": "Kissan",
+    "category": "Groceries",
+    "generic": "jam",
+    "price": 165,
+    "size": "500 g",
+    "unit": "jar",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "coca-cola",
+    "name": "Coca-Cola",
+    "brand": "Coca-Cola",
+    "category": "Beverages",
+    "generic": "cola",
+    "price": 40,
+    "size": "750 ml",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [
+      "pepsi"
+    ],
+    "tags": [
+      "soft drink"
+    ],
+    "aliases": [
+      "coke"
+    ]
+  },
+  {
+    "id": "pepsi",
+    "name": "Pepsi",
+    "brand": "Pepsi",
+    "category": "Beverages",
+    "generic": "cola",
+    "price": 40,
+    "size": "750 ml",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [
+      "coca-cola"
+    ],
+    "tags": [
+      "soft drink"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "sprite",
+    "name": "Sprite",
+    "brand": "Sprite",
+    "category": "Beverages",
+    "generic": "soda",
+    "price": 40,
+    "size": "750 ml",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [
+      "fanta",
+      "mountain-dew"
+    ],
+    "tags": [
+      "soft drink"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "fanta",
+    "name": "Fanta",
+    "brand": "Fanta",
+    "category": "Beverages",
+    "generic": "soda",
+    "price": 40,
+    "size": "750 ml",
+    "unit": "bottle",
+    "available": false,
+    "substitute_ids": [
+      "sprite",
+      "mountain-dew"
+    ],
+    "tags": [
+      "soft drink"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "mountain-dew",
+    "name": "Mountain Dew",
+    "brand": "Mountain Dew",
+    "category": "Beverages",
+    "generic": "soda",
+    "price": 40,
+    "size": "750 ml",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [
+      "sprite",
+      "fanta"
+    ],
+    "tags": [
+      "soft drink"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "lemonade",
+    "name": "Lemonade",
+    "brand": "Paper Boat",
+    "category": "Beverages",
+    "generic": "lemonade",
+    "price": 30,
+    "size": "250 ml",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [
+      "sprite"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "bisleri-water",
+    "name": "Bisleri Water",
+    "brand": "Bisleri",
+    "category": "Beverages",
+    "generic": "water",
+    "price": 20,
+    "size": "1 L",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "mineral water",
+      "bottled water"
+    ]
+  },
+  {
+    "id": "colgate-toothpaste",
+    "name": "Colgate Toothpaste",
+    "brand": "Colgate",
+    "category": "Personal Care",
+    "generic": "toothpaste",
+    "price": 62,
+    "size": "100 g",
+    "unit": "tube",
+    "available": true,
+    "substitute_ids": [
+      "pepsodent-toothpaste",
+      "sensodyne-toothpaste"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "pepsodent-toothpaste",
+    "name": "Pepsodent Toothpaste",
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "generic": "toothpaste",
+    "price": 89,
+    "size": "150 g",
+    "unit": "tube",
+    "available": true,
+    "substitute_ids": [
+      "colgate-toothpaste",
+      "sensodyne-toothpaste"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "sensodyne-toothpaste",
+    "name": "Sensodyne Toothpaste",
+    "brand": "Sensodyne",
+    "category": "Personal Care",
+    "generic": "toothpaste",
+    "price": 149,
+    "size": "75 g",
+    "unit": "tube",
+    "available": true,
+    "substitute_ids": [
+      "colgate-toothpaste",
+      "pepsodent-toothpaste"
+    ],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "dish-soap",
+    "name": "Dish Soap",
+    "brand": "Vim",
+    "category": "Household",
+    "generic": "soap",
+    "price": 95,
+    "size": "500 ml",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": [
+      "dishwash"
+    ]
+  },
+  {
+    "id": "laundry-detergent",
+    "name": "Laundry Detergent",
+    "brand": "Surf Excel",
+    "category": "Household",
+    "generic": "detergent",
+    "price": 230,
+    "size": "1 kg",
+    "unit": "pack",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "id": "floor-cleaner",
+    "name": "Floor Cleaner",
+    "brand": "Lizol",
+    "category": "Household",
+    "generic": "cleaner",
+    "price": 190,
+    "size": "975 ml",
+    "unit": "bottle",
+    "available": true,
+    "substitute_ids": [],
+    "tags": [],
+    "aliases": []
+  }
+]

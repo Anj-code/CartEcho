@@ -1,0 +1,29 @@
+{
+  "milk": [
+    {"product": "bread", "reason": "Often bought together with milk"},
+    {"product": "butter", "reason": "Commonly paired with milk"}
+  ],
+  "bread": [
+    {"product": "butter", "reason": "Often bought together with bread"},
+    {"product": "jam", "reason": "Commonly paired with bread"}
+  ],
+  "pasta": [
+    {"product": "tomato sauce", "reason": "Commonly used with pasta"}
+  ],
+  "tea": [
+    {"product": "biscuits", "reason": "Goes well with tea"},
+    {"product": "sugar", "reason": "Commonly added to tea"}
+  ],
+  "coffee": [
+    {"product": "sugar", "reason": "Commonly added to coffee"}
+  ],
+  "maggie": [
+    {"product": "tomato sauce", "reason": "Tastes great with maggie"}
+  ],
+  "burger buns": [
+    {"product": "tomato sauce", "reason": "Often served with burger buns"}
+  ],
+  "toothpaste": [
+    {"product": "toothpaste", "reason": "Toothpaste runs out - time for a refill or another brand", "prefer_other_brand": true}
+  ]
+}

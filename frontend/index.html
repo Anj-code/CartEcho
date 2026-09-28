@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voice Shopping Assistant</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <h1>Voice Shopping Assistant</h1>
+    <p>Say what you need and your list updates itself.</p>
+  </header>
+
+  <main class="layout">
+    <!-- ============ Voice ============ -->
+    <section class="card voice-card" aria-labelledby="voiceTitle">
+      <h2 id="voiceTitle" class="visually-hidden">Voice commands</h2>
+
+      <div class="lang-row">
+        <label for="languageSelect">Language</label>
+        <select id="languageSelect">
+          <option value="en-IN">English</option>
+          <option value="hi-IN">हिन्दी (Hindi)</option>
+        </select>
+      </div>
+
+      <button id="micButton" class="mic" type="button" aria-pressed="false">
+        <span class="mic-icon" aria-hidden="true">🎙️</span>
+        <span class="mic-label">Tap to speak</span>
+      </button>
+
+      <div id="voiceStatus" class="voice-status" role="status" aria-live="polite" data-state="ready">Ready</div>
+      <p id="transcript" class="transcript" hidden></p>
+      <p id="commandResult" class="command-result" hidden></p>
+      <p id="commandHint" class="command-hint" hidden></p>
+
+      <div class="examples">
+        <span class="examples-title">Try saying</span>
+        <div id="examples" class="chips"></div>
+      </div>
+
+      <form id="typedCommandForm" class="inline-form" autocomplete="off">
+        <label for="typedCommand" class="visually-hidden">Type a command</label>
+        <input id="typedCommand" type="text" placeholder='Or type a command, e.g. "Add 2 bottles of water"' maxlength="300">
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <!-- ============ Shopping list ============ -->
+    <section class="card list-card" aria-labelledby="listTitle">
+      <div class="card-head">
+        <h2 id="listTitle">Shopping list</h2>
+        <span id="listCount" class="count"></span>
+        <button id="clearPurchased" type="button" class="btn btn-quiet" hidden>Clear purchased</button>
+      </div>
+
+      <ul id="shoppingList" class="items"></ul>
+      <p id="listEmpty" class="empty" hidden>Your list is empty. Tap the mic and say "Add milk".</p>
+
+      <form id="addItemForm" class="inline-form add-form" autocomplete="off">
+        <label for="addName" class="visually-hidden">Item name</label>
+        <input id="addName" type="text" placeholder="Add an item, e.g. Rice" maxlength="100" required>
+        <label for="addQty" class="visually-hidden">Quantity</label>
+        <input id="addQty" type="number" min="1" step="1" value="1" class="qty-small">
+        <button type="submit" class="btn">Add</button>
+      </form>
+    </section>
+
+    <!-- ============ Search ============ -->
+    <section class="card wide" aria-labelledby="searchTitle">
+      <h2 id="searchTitle">Search products</h2>
+      <form id="searchForm" class="search-form" autocomplete="off">
+        <div class="field grow">
+          <label for="searchQuery">Product</label>
+          <input id="searchQuery" type="text" placeholder="Search products..." maxlength="100">
+        </div>
+        <div class="field">
+          <label for="searchBrand">Brand</label>
+          <select id="searchBrand"><option value="">All</option></select>
+        </div>
+        <div class="field small">
+          <label for="searchMin">Min price</label>
+          <input id="searchMin" type="number" min="0" step="1" placeholder="₹">
+        </div>
+        <div class="field small">
+          <label for="searchMax">Max price</label>
+          <input id="searchMax" type="number" min="0" step="1" placeholder="₹">
+        </div>
+        <button type="submit" class="btn">Search</button>
+      </form>
+      <p id="searchSummary" class="summary" hidden></p>
+      <div id="searchResults" class="results"></div>
+    </section>
+
+    <!-- ============ Recommendations ============ -->
+    <section class="card" aria-labelledby="recTitle">
+      <h2 id="recTitle">Recommendations</h2>
+      <ul id="recommendations" class="suggestions"></ul>
+    </section>
+
+    <!-- ============ Substitutes ============ -->
+    <section id="substitutesCard" class="card card-alert" aria-labelledby="subTitle" hidden>
+      <div class="card-head">
+        <h2 id="subTitle">Suggested substitutes</h2>
+        <button id="closeSubstitutes" type="button" class="btn btn-quiet">Dismiss</button>
+      </div>
+      <p id="substitutesIntro" class="summary"></p>
+      <ul id="substitutes" class="suggestions"></ul>
+    </section>
+  </main>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+
+  <!-- Classic scripts (not modules) so index.html also works when opened directly. -->
+  <script defer src="js/app.js"></script>
+  <script defer src="js/shopping-list.js"></script>
+  <script defer src="js/search.js"></script>
+  <script defer src="js/recommendations.js"></script>
+  <script defer src="js/voice.js"></script>
+</body>
+</html>

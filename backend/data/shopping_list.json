@@ -1,0 +1,29 @@
+[
+  {
+    "id": "6939ce46e7",
+    "name": "Sugar",
+    "quantity": 1,
+    "unit": null,
+    "category": "Groceries",
+    "purchased": false,
+    "product_id": "sugar"
+  },
+  {
+    "id": "c55881ac99",
+    "name": "Coca-Cola",
+    "quantity": 1,
+    "unit": null,
+    "category": "Beverages",
+    "purchased": false,
+    "product_id": "coca-cola"
+  },
+  {
+    "id": "dd7a3c729f",
+    "name": "Oreo",
+    "quantity": 1,
+    "unit": null,
+    "category": "Snacks",
+    "purchased": false,
+    "product_id": "oreo"
+  }
+]

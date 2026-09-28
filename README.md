@@ -5,6 +5,8 @@ Plain HTML/CSS/JavaScript in the browser, **Python + FastAPI** on the server, **
 No database, no AI service, no machine learning: the language understanding and the
 recommendations are simple, readable rules.
 
+live - https://cartecho.onrender.com
+
 ## Quick start (VS Code)
 
 1. Install **Python 3.9+** and open this folder in VS Code.
